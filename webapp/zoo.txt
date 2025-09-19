@@ -18,7 +18,7 @@
          <tr>
            <td align="center"><h2>1</h2></td>
            <td align="center"><h2>Wild Animal</h2></td>
-           <td align="center"><h2>1</h2></td>
+           <td align="center"><img src="D:\3ISE02 WEBTECHNOLOGY LAB\IMAGES\wildanimal.jpg" width="100" height="100"/></td>
          </tr>  
       </div>  
   </body>
