@@ -1,0 +1,25 @@
+<html>
+  <head> <title> Zoo Site </title>
+  </head>
+  <body>
+    <div align="center">
+      <p><h1><b> E-Zoo</b></h1>
+        <h3><u>WELCOME TO OUR ZOO</u></h3>
+    </div>
+      <hr/>
+      <div align="center">
+        <h2> <u> VISITS AVAILABLE </u>
+       <table cellspacing="2" cellpadding="4" border="1" width="600">
+         <tr>
+           <th bgcolor="yellow" align="center">SL.NO</th>
+           <th bgcolor="yellow" align="center">Visit To</th>
+           <th bgcolor="yellow" align="center">Link</th>
+         </tr> 
+         <tr>
+           <td align="center"><h2>1</h2></td>
+           <td align="center"><h2>Wild Animal</h2></td>
+           <td align="center"><h2>1</h2></td>
+         </tr>  
+      </div>  
+  </body>
+</html>
