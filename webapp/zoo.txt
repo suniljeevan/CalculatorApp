@@ -1,54 +1,90 @@
+<!DOCTYPE html>
 <html>
-  <head> <title> Zoo Site </title>
-  </head>
-  <body>
+<head>
+<title>E-Zoo</title>
+</head>
+<body>
+
+<div align="center">
+  <h1>E-Zoo</h1>
+  <p><u>WELCOME TO OUR E-ZOO</u></p>
+</div>
+<hr>
+<div align="center">
+  <h2><u>VISITS AVAILABLE</u></h2>
+  <table border="1" cellpadding="10" cellspacing="0" width="60%" align="center">
+    <thead>
+      <tr bgcolor="#FF8C00">
+        <th>Sl.No</th>
+        <th>Visit To</th>
+        <th>Link</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Wild Animals</td>
+        <td>clickable image<br>of one wild<br>animal</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Birds</td>
+        <td>clickable image<br>of one bird</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Domestic Animals</td>
+        <td>clickable image<br>of one domestic<br>animal</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Mammals</td>
+        <td><a href="https://th.bing.com/th/id/OIP.y6MXl1TwB-x2bZFfTsh7MAHaEK?w=333&h=187&c=7&r=0&o=7&pid=1.7&rm=3"><img src="mammal.jpg" height="10" width="10" alt="Mammal Image"></a></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<hr>
+
+<div align="left">
+  <center><h2>Physical Visit Request Form</h2></center>
+  <form action="#" method="POST">
     <div align="center">
-      <p><h1><b> E-Zoo</b></h1>
-        <h3><u>WELCOME TO OUR ZOO</u></h3>
+      <table border="0" cellpadding="5" cellspacing="0">
+        <tr>
+          <td>Name</td>
+          <td>:</td>
+          <td><input type="text" name="name"></td>
+        </tr>
+        <tr>
+          <td>Phone No</td>
+          <td>:</td>
+          <td><input type="tel" name="phone"></td>
+        </tr>
+        <tr>
+          <td>Address</td>
+          <td>:</td>
+          <td><input type="text" name="address"></td>
+        </tr>
+        <tr>
+          <td>Date of Visit</td>
+          <td>:</td>
+          <td><input type="date" name="date"></td>
+        </tr>
+        <tr>
+          <td>Total No of people visiting</td>
+          <td>:</td>
+          <td><input type="number" name="visitors"></td>
+        </tr>
+      </table>
     </div>
-      <hr/>
-      <div align="center">
-        <h2> <u> VISITS AVAILABLE </u>
-       <table cellspacing="2" cellpadding="4" border="1" width="600">
-         <tr>
-           <th bgcolor="yellow" align="center">SL.NO</th>
-           <th bgcolor="yellow" align="center">Visit To</th>
-           <th bgcolor="yellow" align="center">Link</th>
-         </tr> 
-         <tr>
-           <td align="center"><h2>1</h2></td>
-           <td align="center"><h2>Wild Animal</h2></td>
-           <td align="center"><a href="#"><img src="D:\3ISE02 WEBTECHNOLOGY LAB\IMAGES\wildanimal.jpg" 
-           width="100" height="100"/>Clickage image of wild animals </a></td>
-         </tr>  
-         <tr>
-           <td align="center"><h2>1</h2></td>
-           <td align="center"><h2>Wild Animal</h2></td>
-           <td align="center"><a href="#"><img src="D:\3ISE02 WEBTECHNOLOGY LAB\IMAGES\wildanimal.jpg" 
-           width="100" height="100"/>Clickage image of wild animals </a></td>
-         </tr> 
-         <tr>
-           <td align="center"><h2>1</h2></td>
-           <td align="center"><h2>Wild Animal</h2></td>
-           <td align="center"><a href="#"><img src="D:\3ISE02 WEBTECHNOLOGY LAB\IMAGES\wildanimal.jpg" 
-           width="100" height="100"/>Clickage image of wild animals </a></td>
-         </tr> 
-          <tr>
-           <td align="center"><h2>1</h2></td>
-           <td align="center"><h2>Wild Animal</h2></td>
-           <td align="center"><a href="#"><img src="D:\3ISE02 WEBTECHNOLOGY LAB\IMAGES\wildanimal.jpg" 
-           width="100" height="100"/>Clickage image of wild animals </a></td>
-         </tr> 
-       </table>
-      </div>  
-  </body>
+  </form>
+</div>
+<hr>
+<div align="center">
+  <p><b>Address:</b></p>
+  <p>Bannerghatta National Park<br>Bengaluru, Karnataka 560083<br>Ph: 080-2977 6466</p>
+</div>
+
+</body>
 </html>
-
-
-
-
-
-
-
-
-
